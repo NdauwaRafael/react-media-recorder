@@ -42,7 +42,6 @@
     "typescript": "^3.7.2"
   },
   "source": "src/index.ts",
-  "types": "./lib/index.d.ts",
-  "sideEffects": true
+  "types": "./lib/index.d.ts"
   
 }
