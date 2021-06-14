@@ -41,5 +41,8 @@
     "jsmin": "^1.0.1",
     "typescript": "^3.7.2"
   },
-  "types": "./lib/index.d.ts"
+  "source": "src/index.ts",
+  "types": "./lib/index.d.ts",
+  "sideEffects": true
+  
 }
