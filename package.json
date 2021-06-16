@@ -7,8 +7,7 @@
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "microbundle",
     "prepare": "npm run build"
   },
   "files": [
@@ -43,6 +42,7 @@
     "@types/node": "^12.12.11",
     "@types/react": "^16.9.11",
     "jsmin": "^1.0.1",
+    "microbundle": "^0.13.3",
     "microbundle-crl": "^0.13.11",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.0.4",
